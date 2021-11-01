@@ -1,1 +1,2 @@
-# TapLocalizationV2
+# TapLocalization
+Localization manager for Tap mobile products

@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80854A629AD994EEDB467368 /* Pods_TapLocalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A652FF48C91630DD716F3109 /* Pods_TapLocalization.framework */; };
+		A4624A851FBDC04100835419 /* TapLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = A4624A831FBDC04000835419 /* TapLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4624AB61FBE4A6A00835419 /* TapLocalization.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A4624AB51FBE4A6900835419 /* TapLocalization.podspec */; };
+		A470718E1FD5729F00AE223D /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47071891FD5729F00AE223D /* LocalizationManager.swift */; };
+		A470718F1FD5729F00AE223D /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470718A1FD5729F00AE223D /* Localization.swift */; };
+		A47071901FD5729F00AE223D /* LocalizationManager+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470718B1FD5729F00AE223D /* LocalizationManager+Currency.swift */; };
+		A47071911FD5729F00AE223D /* LocalizationManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470718C1FD5729F00AE223D /* LocalizationManagerDataSource.swift */; };
+		A47071981FD574A100AE223D /* Notification.Name+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47071971FD574A100AE223D /* Notification.Name+Additions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185ABC0A741D830168082104 /* Pods-TapLocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapLocalization.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapLocalization/Pods-TapLocalization.release.xcconfig"; sourceTree = "<group>"; };
+		9B917C75ABC870CA432CD4BD /* Pods-TapLocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapLocalization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapLocalization/Pods-TapLocalization.debug.xcconfig"; sourceTree = "<group>"; };
+		A4624A801FBDC04000835419 /* TapLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4624A831FBDC04000835419 /* TapLocalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapLocalization.h; sourceTree = "<group>"; };
+		A4624A841FBDC04100835419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4624AB51FBE4A6900835419 /* TapLocalization.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TapLocalization.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A47071891FD5729F00AE223D /* LocalizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		A470718A1FD5729F00AE223D /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		A470718B1FD5729F00AE223D /* LocalizationManager+Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocalizationManager+Currency.swift"; sourceTree = "<group>"; };
+		A470718C1FD5729F00AE223D /* LocalizationManagerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationManagerDataSource.swift; sourceTree = "<group>"; };
+		A47071971FD574A100AE223D /* Notification.Name+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Additions.swift"; sourceTree = "<group>"; };
+		A652FF48C91630DD716F3109 /* Pods_TapLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4624A7C1FBDC04000835419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80854A629AD994EEDB467368 /* Pods_TapLocalization.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C16AE6B9512736842B3F2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B917C75ABC870CA432CD4BD /* Pods-TapLocalization.debug.xcconfig */,
+				185ABC0A741D830168082104 /* Pods-TapLocalization.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		300A243E1A09736189444391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A652FF48C91630DD716F3109 /* Pods_TapLocalization.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4624A761FBDC04000835419 = {
+			isa = PBXGroup;
+			children = (
+				A4624AB51FBE4A6900835419 /* TapLocalization.podspec */,
+				A4624A821FBDC04000835419 /* TapLocalization */,
+				A4624A811FBDC04000835419 /* Products */,
+				19C16AE6B9512736842B3F2C /* Pods */,
+				300A243E1A09736189444391 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4624A811FBDC04000835419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4624A801FBDC04000835419 /* TapLocalization.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4624A821FBDC04000835419 /* TapLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				A4624A831FBDC04000835419 /* TapLocalization.h */,
+				A4624A841FBDC04100835419 /* Info.plist */,
+				A4624A8B1FBDC0D700835419 /* Source */,
+			);
+			path = TapLocalization;
+			sourceTree = "<group>";
+		};
+		A4624A8B1FBDC0D700835419 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A47071881FD5727D00AE223D /* Core */,
+				A47071961FD5747700AE223D /* Notifications */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A47071881FD5727D00AE223D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A470718A1FD5729F00AE223D /* Localization.swift */,
+				A47071891FD5729F00AE223D /* LocalizationManager.swift */,
+				A470718B1FD5729F00AE223D /* LocalizationManager+Currency.swift */,
+				A470718C1FD5729F00AE223D /* LocalizationManagerDataSource.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A47071961FD5747700AE223D /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				A47071971FD574A100AE223D /* Notification.Name+Additions.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4624A7D1FBDC04000835419 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4624A851FBDC04100835419 /* TapLocalization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4624A7F1FBDC04000835419 /* TapLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4624A881FBDC04100835419 /* Build configuration list for PBXNativeTarget "TapLocalization" */;
+			buildPhases = (
+				371B46B0E4F29DE24425C565 /* [CP] Check Pods Manifest.lock */,
+				A4624A7B1FBDC04000835419 /* Sources */,
+				A4624A7C1FBDC04000835419 /* Frameworks */,
+				A4624A7D1FBDC04000835419 /* Headers */,
+				A4624A7E1FBDC04000835419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapLocalization;
+			productName = TapLocalization;
+			productReference = A4624A801FBDC04000835419 /* TapLocalization.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4624A771FBDC04000835419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Tap Payments";
+				TargetAttributes = {
+					A4624A7F1FBDC04000835419 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4624A7A1FBDC04000835419 /* Build configuration list for PBXProject "TapLocalization" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4624A761FBDC04000835419;
+			productRefGroup = A4624A811FBDC04000835419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4624A7F1FBDC04000835419 /* TapLocalization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4624A7E1FBDC04000835419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4624AB61FBE4A6A00835419 /* TapLocalization.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		371B46B0E4F29DE24425C565 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapLocalization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4624A7B1FBDC04000835419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A470718E1FD5729F00AE223D /* LocalizationManager.swift in Sources */,
+				A47071911FD5729F00AE223D /* LocalizationManagerDataSource.swift in Sources */,
+				A470718F1FD5729F00AE223D /* Localization.swift in Sources */,
+				A47071901FD5729F00AE223D /* LocalizationManager+Currency.swift in Sources */,
+				A47071981FD574A100AE223D /* Notification.Name+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4624A861FBDC04100835419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4624A871FBDC04100835419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4624A891FBDC04100835419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B917C75ABC870CA432CD4BD /* Pods-TapLocalization.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapLocalization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.ios.TapLocalizationV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4624A8A1FBDC04100835419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185ABC0A741D830168082104 /* Pods-TapLocalization.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapLocalization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.ios.TapLocalizationV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4624A7A1FBDC04000835419 /* Build configuration list for PBXProject "TapLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4624A861FBDC04100835419 /* Debug */,
+				A4624A871FBDC04100835419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4624A881FBDC04100835419 /* Build configuration list for PBXNativeTarget "TapLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4624A891FBDC04100835419 /* Debug */,
+				A4624A8A1FBDC04100835419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4624A771FBDC04000835419 /* Project object */;
+}
