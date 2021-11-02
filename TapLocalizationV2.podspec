@@ -6,7 +6,7 @@ Pod::Spec.new do |tapLocalization|
     tapLocalization.name                    = 'TapLocalizationV2'
     tapLocalization.summary                 = 'Tap Localization Manager.'
     tapLocalization.requires_arc            = true
-    tapLocalization.version                 = '1.0.1'
+    tapLocalization.version                 = '1.0.2'
     tapLocalization.license                 = { :type => 'MIT', :file => 'LICENSE' }
     tapLocalization.author                  = { 'Osama Rabie' => 'o.rabie@tap.company' }
     tapLocalization.homepage                = 'https://github.com/Tap-Payments/TapLocalizationV2'
@@ -22,11 +22,5 @@ Pod::Spec.new do |tapLocalization|
         
         core.source_files = 'TapLocalization/Source/Core/*.swift'
         
-    end
-    
-    tapLocalization.subspec 'Notifications' do |notifications|
-    
-        notifications.source_files = 'TapLocalization/Source/Notifications/*.swift'
-    
     end
 end
